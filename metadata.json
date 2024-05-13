@@ -1,21 +1,14 @@
 {
-  "name": "Minimalist",
-  "symbol": "MLT",
-  "description": "A Minimalist token",
-  "image": "https://raw.githubusercontent.com/last-developer/metadata/main/2149908695.jpg"
-}
-
-{
   "name": "My Unique Token",
   "symbol": "MUT",
   "description": "A detailed description of your token.",
-  "image": "https://example.com/image.png",
+  "image": "https://raw.githubusercontent.com/last-developer/metadata/main/2149908695.jpg",
   "attributes": [],
   "properties": {
     "files": [
       {
-        "uri": "https://example.com/image.png",
-        "type": "image/png"
+        "uri": "https://raw.githubusercontent.com/last-developer/metadata/main/2149908695.jpg",
+        "type": "image/jpg"
       }
     ],
     "creators": [
