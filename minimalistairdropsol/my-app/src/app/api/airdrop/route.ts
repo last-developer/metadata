@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL, Keypair, Transaction, sendAndConfirmTransaction } from '@solana/web3.js';
+import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL, Keypair } from '@solana/web3.js';
 
 const devnetConnection = new Connection(clusterApiUrl('devnet'), 'confirmed');
 const testnetConnection = new Connection(clusterApiUrl('testnet'), 'confirmed');
